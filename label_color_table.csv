@@ -1,0 +1,3 @@
+label_ID,label_color,label_text,label_discription
+1,0x00FFFF,Tumor,tumor area
+2,0xFFFF00,Stroma,stroma area
