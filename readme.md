@@ -30,7 +30,7 @@ The annotated data will be divided into training, validation and testing dataset
 Please refer to the bash script in ./test_WSI.sh. You will be able to know the pipeline steps written in python code.
 
 ## Example Results 
-Examples of tumor-stroma segmentation and TSR scoring results. A) Original WSIs, with HGSOC and SBOT each; B) tumor-stroma segmentation, tumor and stroma were encoded with cyan and yellow; C) TSR scores measured from three metrics, including fibrosis (Red), cellularity (Green) and orientation (Blue). Each metric was encoded from dark to light color, denoting TSR score from low to high. 
+Examples of TSR scoring results. Images in the first column are the original WSIs. The following columns are TSR scores measured from three metrics, including fibrosis (Red), cellularity (Green) and orientation (Blue). Each metric was encoded from dark to light color, denoting TSR score from low to high. Tumor regions were excluded in the evaluation. 
 ![Workflow](./img/TSR_example_0.png)
 
 ## Extension of this work (future work) 
