@@ -28,7 +28,7 @@ The annotated data will be divided into training, validation and testing dataset
 
 ## Testing a H&E whole slide image
 Please refer to the bash script in ./test_WSI.sh. You will be able to know the pipeline steps written in python code.
-
+The pretrained models for ovarian tissue can be found [here](https://drive.google.com/drive/folders/139X9ddT0vRbVBafLvGGOzyTaS5DdRRLn?usp=drive_link) in our GoogleDrive. 
 ## Example Results 
 Examples of TSR scoring results. Images in the first column are the original WSIs. The following columns are TSR scores measured from three metrics, including fibrosis (Red), cellularity (Green) and orientation (Blue). Each metric was encoded from dark to light color, denoting TSR score from low to high. Tumor regions were excluded in the evaluation. 
 ![Workflow](./img/TSR_example_0.png)
